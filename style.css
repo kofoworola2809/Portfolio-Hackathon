@@ -90,8 +90,8 @@ ul li {
 
 /* ===== Image ===== */
 img[alt="Maryam's Photo"] {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
