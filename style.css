@@ -1,0 +1,184 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #07436b93; /* light blue tint */
+  color: #05192e; /* deep navy blue */
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #cce5ff; /* light sky blue */
+  padding: 30px;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #003366;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #004080;
+}
+
+/* ===== Navigation ===== */
+nav {
+  background-color: #e6f0ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav ol {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0056b3;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #003366;
+}
+
+/* ===== Section Styling ===== */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+section {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 33, 71, 0.05);
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* ===== Image ===== */
+img[alt="Maryam's Photo"] {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 20px 20px 0;
+  float: none;
+  border: 3px solid #0056b3;
+}
+
+/* ===== Links ===== */
+a {
+  color: #1f00ab;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #002147;
+}
+
+/* ===== Form ===== */
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #5f5e5ec9;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #516f99;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00026cbd;
+}
+
+/* ===== Social Icons ===== */
+#contact ul {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  list-style: none;
+  padding-top: 15px;
+}
+
+#contact img {
+  width: 30px;
+  height: 30px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  nav ol {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img[alt="Maryam's Photo"] {
+    width: 150px;
+    height: 150px;
+  }
+}
