@@ -18,11 +18,10 @@ This project showcases:
 ## 🛠️ Built With
 
 - **HTML5** — The markup language used for structuring the site
-- **CSS3** — For styling and layout (linked as `style.css`)
+- **CSS** — For styling and layout (linked as `style.css`)
 - **Formspree** — For contact form handling (no backend required)
 
 ## 📁 Folder Structure
-
 project-folder/
 │
 ├── index.html # Main webpage
@@ -35,10 +34,6 @@ project-folder/
 ├── logo-instagram.svg
 ├── logo-github.svg
 └── telegram-svgrepo-com.svg
-
-markdown
-Copy
-Edit
 
 ## 🧠 Features
 
